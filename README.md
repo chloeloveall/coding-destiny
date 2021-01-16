@@ -18,18 +18,18 @@
 
 ## Description
 
-_Second independent Epicodus project that creates an application with questions to determine users first programming language._<br>
-_View project on GH Pages: [gh-pages](https://chloeloveall.github.io/coding-destiny/)_
+_Second independent Epicodus project that creates an application with questions to determine users first programming language._<br><br>
+_**Note to Epicodus Instructors:** As discussed with Leilani, I am having a difficult time grasping JavaScript. I was unable to accomplish much on my project due to this. I spent most of the day reviewing the week's lessons, working on the practice exercises I did not undertstand, and completing other JavaScript tutorials and exercises that are applicable to this project (on edabit.com, theodinproject.com, and codecademy.com)_
 
 ## Setup/Installation Requirements
 
 1. Clone the repository
-    >$ git clone https://github.com/chloeloveall/portfolio-website.git
+    >$ git clone https://github.com/chloeloveall/coding-destiny.git
 2. Open the portfolio-website directory in a code editor (VS Code is recommended)
 
 ## Known Bugs
 
-* None
+* 
 
 ## License
 
