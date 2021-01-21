@@ -26,6 +26,7 @@ _**Note to Epicodus Instructors:** As discussed with Leilani, I am having a diff
 1. Clone the repository
     >$ git clone https://github.com/chloeloveall/coding-destiny.git
 2. Open the portfolio-website directory in a code editor (VS Code is recommended)
+3. To view the site, open index.html in your preferred browser 
 
 ## Known Bugs
 
