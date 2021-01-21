@@ -11,3 +11,14 @@ h1, h2, h3 {
 .learn-js, .learn-ruby, .learn-python {
   display: none;
 }
+
+.submitBtn {
+  margin-top: 6px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.submitBtn:hover, .submitBtn:active {
+  background-color: #4D194D;
+  color: #ffffff;
+}
