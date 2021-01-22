@@ -21,7 +21,7 @@ h1 {
   box-shadow: 6px 6px #144552;
 }
 
-.learn-js, .learn-ruby, .learn-python {
+.learn-js, .learn-ruby, .learn-csharp, .learn-python {
   display: none;
   margin-top: 20px;
   margin-bottom: 20px;
