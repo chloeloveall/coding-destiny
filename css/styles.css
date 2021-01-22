@@ -1,6 +1,7 @@
 body {
   background-color: #006466;
   color: #000000;
+  font-weight: bold;
 }
 
 h1, h2, h3 {
@@ -8,29 +9,39 @@ h1, h2, h3 {
   text-shadow: 3px 3px #000000;
 }
 
-.learn-js, .learn-ruby, .learn-python {
-  display: none;
+h1 {
+  padding-top: 10px;
+  font-size: 42px;
 }
 
-.submitBtn, .resetBtn {
+#form-destiny {
+  margin: auto;
+  padding: 10px;
+  background-color: #008C8F;
+  box-shadow: 6px 6px #144552;
+}
+
+.learn-js, .learn-ruby, .learn-python {
+  display: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #3E143E;
+  color: #ffffff;
+  box-shadow: 6px 6px #272640;
+}
+
+.submitBtn {
   margin-top: 6px;
   background-color: #ffffff;
   color: #000000;
 }
 
-.submitBtn:hover, .submitBtn:active {
+.submitBtn:hover {
   background-color: #6C236C;
   color: #ffffff;
 }
 
 .submitBtn:active {
   background-color: #272640;
-}
-
-.learn-js, .learn-ruby, .learn-python {
-  margin-top: 10px;
-  padding: 10px;
-  background-color: #3E143E;
-  color: #ffffff;
-  box-shadow: 6px 6px #272640;
 }
