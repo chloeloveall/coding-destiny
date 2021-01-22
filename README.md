@@ -27,7 +27,7 @@ _**Note to Epicodus Instructors (01/15/2021):** As discussed with Leilani, I am 
 1. Clone the repository
     >$ git clone https://github.com/chloeloveall/coding-destiny.git
 2. Open the portfolio-website directory in a code editor (VS Code is recommended)
-3. To view the site, open index.html in your preferred browser 
+3. To view the site from VS Code, use the Live Server extension to open index.html in your preferred browser 
 
 ## Known Bugs
 
