@@ -11,14 +11,22 @@ $(document).ready(function() {
       $('.learn-js').show();
       $('.learn-ruby').hide();
       $('.learn-python').hide();
+      $('.learn-csharp').hide();
     } else if (favoriteColorInput === 'purple' && userAgeInput > 20 || creativityInput === 'no') {
       $('.learn-ruby').show();
       $('.learn-js').hide();
       $('.learn-python').hide();
+      $('.learn-csharp').hide();
+    } else if (creativityInput === 'yes') {
+      $('.learn-csharp').show();
+      $('.learn-python').hide();
+      $('.learn-js').hide();
+      $('.learn-ruby').hide();
     } else {
       $('.learn-python').show();
       $('.learn-js').hide();
       $('.learn-ruby').hide();
+      $('.learn-csharp').hide();
     }
     $('#form-destiny')[0].reset();
   });
