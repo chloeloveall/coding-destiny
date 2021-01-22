@@ -18,6 +18,12 @@ $(document).ready(function() {
       $('.learn-js').hide();
       $('.learn-python').hide();
       $('.learn-csharp').hide();
+    } else if (favoriteColorInput === 'gold') {
+      alert("You are destined to learn numerous languages!");
+      $('.learn-ruby').show();
+      $('.learn-js').show();
+      $('.learn-python').show();
+      $('.learn-csharp').show();
     } else if (priorCodingInput === 'yes' || favoriteColorInput === 'black') {
       $('.learn-csharp').show();
       $('.learn-python').hide();
