@@ -21,8 +21,4 @@ $(document).ready(function() {
     $('#form-destiny')[0].reset();
   });
 
-  // $('button.resetBtn').submit(function(event) {
-  //   $('.learn-js').hide();
-  // })
-
 });
