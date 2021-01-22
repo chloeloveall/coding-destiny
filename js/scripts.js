@@ -6,6 +6,7 @@ $(document).ready(function() {
     const userAgeInput = parseInt($('input#userAge').val());
     const moodInput = $('input#mood').val().toLowerCase();
     const creativityInput = $('input#creativity').val().toLowerCase();
+    const priorCodingInput = $('input#priorCoding').val().toLowerCase();
 
     if (favoriteColorInput === 'green' && userAgeInput < 35 || moodInput === 'yes') {
       $('.learn-js').show();
