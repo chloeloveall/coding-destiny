@@ -2,9 +2,9 @@ $(document).ready(function() {
   $('#form-destiny').submit(function(event) {
     event.preventDefault();
 
-    const favoriteColorInput = $('input#favoriteColor').val();
+    const favoriteColorInput = $('input#favoriteColor').val().toLowerCase();
     const userAgeInput = parseInt($('input#userAge').val());
-    const moodInput = $('input#mood').val();
+    const moodInput = $('input#mood').val().toLowerCase();
 
     if (favoriteColorInput === 'green' && userAgeInput < 35 || moodInput === 'yes') {
       $('.learn-js').show();
