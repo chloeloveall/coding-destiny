@@ -8,7 +8,7 @@ $(document).ready(function() {
     const creativityInput = $('input#creativity').val().toLowerCase();
     const priorCodingInput = $('input#priorCoding').val().toLowerCase();
 
-    if (favoriteColorInput === 'green' && userAgeInput < 35 || moodInput === 'yes') {
+    if (favoriteColorInput === 'green' && userAgeInput < 25 || moodInput === 'yes') {
       $('.learn-js').show();
       $('.learn-ruby').hide();
       $('.learn-python').hide();
@@ -18,7 +18,7 @@ $(document).ready(function() {
       $('.learn-js').hide();
       $('.learn-python').hide();
       $('.learn-csharp').hide();
-    } else if (creativityInput === 'yes') {
+    } else if (priorCodingInput === 'yes' || favoriteColorInput === 'black') {
       $('.learn-csharp').show();
       $('.learn-python').hide();
       $('.learn-js').hide();
